@@ -14,3 +14,12 @@ Tools & Environment
 Google Colab (Python 3)
 Core libraries: pandas, matplotlib, seaborn
 Notebook included: ColabProject1.ipynb
+
+How to run
+Upload products_asos.csv to Colab or mount Google Drive and place the file in the working directory.
+Open ColabProject1.ipynb in Google Colab.
+Run cells sequentially:
+Data loading cell: check path to products_asos.csv
+EDA cells: df.head(), df.info(), df.describe(), plots
+Cleaning cells: handling missing values, removing duplicates, dtype fixes
+Results cells: summary stats and the business recommendation cell
